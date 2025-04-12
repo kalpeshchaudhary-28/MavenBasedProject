@@ -8,6 +8,7 @@ public class PriorityDemo {
 
     @Test(priority = 1, groups = "smoke")
     public void testCheckY(){
+
         System.out.println("Test : Y");
     }
 

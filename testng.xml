@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!--<groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>-->
+
+    <parameter name="courseName" value="Selenium"/>
+    <parameter name="cityName" value="Delhi"/>
+<!--    <parameter name="browserName" value="chrome"/>-->
+    <parameter name="browserName" value="edge"/>
+
+    <listeners>
+        <listener class-name="testngdemo.failedtest.IAnnotation"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="3" name="C:/Users/HP/IdeaProjects/MavenBasedProject">
+        <classes>
+            <!--<class name="testngdemo.parameterization.ParameterizedDemo"/>-->
+            <class name="testngdemo.basicoftestng.PriorityDemo"/>
+        </classes>
+    </test>
+</suite>

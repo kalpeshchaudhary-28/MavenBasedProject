@@ -12,6 +12,7 @@ public class ParallelExecutionDemo {
         driver.get("https://www.cognizant.com/in/en");
         driver.manage().window().maximize();
 		System.out.println("Check");
+		driver.close();
     }
 
     @Test

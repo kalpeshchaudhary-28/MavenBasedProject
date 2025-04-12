@@ -11,8 +11,7 @@ public class ParallelExecutionDemo {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.cognizant.com/in/en");
         driver.manage().window().maximize();
-        Thread.sleep(3000);
-        driver.close();
+		System.out.println("Check");
     }
 
     @Test

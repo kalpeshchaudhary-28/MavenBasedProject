@@ -10,6 +10,7 @@ public class PriorityDemo {
     public void testCheckY(){
 
         System.out.println("Test : Y");
+        System.out.println("TestCheck");
     }
 
     @Test(priority = 2, enabled = true)

@@ -10,7 +10,6 @@ public class PriorityDemo {
     public void testCheckY(){
 
         System.out.println("Test : Y");
-        System.out.println("Test : Jenkins");
     }
 
     @Test(priority = 2, enabled = true)
